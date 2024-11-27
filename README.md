@@ -1,43 +1,45 @@
-CEO Salary Prediction Models 💼📊
+# CEO Salary Prediction Models 💼📊
+
 This project demonstrates the use of various regression models to predict CEO salaries based on different features such as education, experience, and company size. The models included in the analysis are Linear Regression, Polynomial Regression, Support Vector Regression (SVR), Decision Tree Regressor, and Random Forest Regressor.
 
-Table of Contents 📑
-Installation 🔧
-Dependencies 📦
-Usage 🚀
-Models 🧑‍🏫
-Example 💡
-License 📜
-Installation 🔧
+---
+
+## Table of Contents 📑
+
+- [Installation 🔧](#installation)
+- [Dependencies 📦](#dependencies)
+- [Usage 🚀](#usage)
+- [Models 🧑‍🏫](#models)
+- [Example 💡](#example)
+- [License 📜](#license)
+
+---
+
+## Installation 🔧
+
 To get started, clone the repository and install the required dependencies:
 
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/CEO-Salary-Prediction.git
-Navigate to the project folder:
-
-bash
-Copy code
-cd CEO-Salary-Prediction
-Install the required dependencies:
-
-bash
-Copy code
-pip install -r requirements.txt
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/CEO-Salary-Prediction.git
+2.Navigate to the project folder:
+  ```bash
+  cd CEO-Salary-Prediction
+  ```
+3.Install the required dependencies:
+  ```bash
+  pip install -r requirements.txt
+  ```
 Dependencies 📦
 This project requires the following Python libraries:
-
-numpy
-pandas
-scikit-learn
-statsmodels
+-numpy
+-pandas
+-scikit-learn
+-statsmodels
 To install all dependencies, use:
-
-bash
-Copy code
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
+  ```
 Usage 🚀
 To use the models and start predicting CEO salaries:
 
@@ -46,10 +48,9 @@ Prepare your dataset in CSV format (example: veriler.csv), ensuring it contains 
 Run the script ceo_salary_prediction.py to execute the regression models and view the results.
 
 Example command:
-
-bash
-Copy code
-python ceo_salary_prediction.py
+  ```bash
+  python ceo_salary_prediction.py
+  ```
 Models 🧑‍🏫
 This project implements the following regression models to predict CEO salaries:
 
@@ -73,13 +74,23 @@ Each model is evaluated using the Ordinary Least Squares (OLS) method from the s
 Example 💡
 Here’s an example of how to use the trained models to predict CEO salaries for new data:
 
-python
-Copy code
-yeni_veri = [[10, 100, 10]]  # Example data: experience, company size, and education
-yeni_veri_scaled = sc1.transform(yeni_veri)
-tahmin_svr = svr_reg.predict(yeni_veri_scaled)
-print("CEO Tahmin (SVR):", sc2.inverse_transform(tahmin_svr.reshape(-1, 1)))
+  ```bash
+  yeni_veri = [[10, 100, 10]]  # Example data: experience, company size, and education
+  yeni_veri_scaled = sc1.transform(yeni_veri)
+  tahmin_svr = svr_reg.predict(yeni_veri_scaled)
+  print("CEO Tahmin (SVR):", sc2.inverse_transform(tahmin_svr.reshape(-1, 1)))
+  ```
 This code predicts the CEO's salary based on the given input values using the trained Support Vector Regression model.
 
 License 📜
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+### Key features:
+- **Emojis** 🎉 to make sections visually appealing and easy to navigate.
+- **Headings** and **subheadings** to organize content.
+- **Code blocks** for installation steps and examples.
+- **Table of Contents** 📑 to allow quick navigation.
+
+This format ensures a clean, readable, and friendly README for GitHub. Feel free to customize the links, file names, or sections as needed!
