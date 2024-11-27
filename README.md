@@ -20,8 +20,9 @@ This project demonstrates the use of various regression models to predict CEO sa
 To get started, clone the repository and install the required dependencies:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/CEO-Salary-Prediction.git
+  ```bash
+  git clone https://github.com/yourusername/CEO-Salary-Prediction.git
+  ```
 2.Navigate to the project folder:
   ```bash
   cd CEO-Salary-Prediction
