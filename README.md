@@ -82,15 +82,6 @@ Here’s an example of how to use the trained models to predict CEO salaries for
   ```
 This code predicts the CEO's salary based on the given input values using the trained Support Vector Regression model.
 
-License 📜
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
-### Key features:
-- **Emojis** 🎉 to make sections visually appealing and easy to navigate.
-- **Headings** and **subheadings** to organize content.
-- **Code blocks** for installation steps and examples.
-- **Table of Contents** 📑 to allow quick navigation.
-
-This format ensures a clean, readable, and friendly README for GitHub. Feel free to customize the links, file names, or sections as needed!
