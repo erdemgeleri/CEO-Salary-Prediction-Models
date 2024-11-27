@@ -2,19 +2,6 @@
 
 This project demonstrates the use of various regression models to predict CEO salaries based on different features such as education, experience, and company size. The models included in the analysis are Linear Regression, Polynomial Regression, Support Vector Regression (SVR), Decision Tree Regressor, and Random Forest Regressor.
 
----
-
-## Table of Contents 📑
-
-- [Installation 🔧](#installation)
-- [Dependencies 📦](#dependencies)
-- [Usage 🚀](#usage)
-- [Models 🧑‍🏫](#models)
-- [Example 💡](#example)
-- [License 📜](#license)
-
----
-
 ## Installation 🔧
 
 To get started, clone the repository and install the required dependencies:
